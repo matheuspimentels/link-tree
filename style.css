@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+:root{
+    --branco:#F4F0EA;
+    --black:#000000;
+    --marrom:#331F19;
+    --azul-bebê:#1b66ff;
+    --gray:#333333;
+    --terracota:#7a2216;
+    --cinza-claro:#c0c0c0;
+    --preto:#000000;
+    --verde-puxado-no-cinza:#79927d;
+    --verde-escuro-claro:#648a64;
+
+}
+body{
+    background-color: var(--verde-puxado-no-cinza) ;
+    border: ipx solid red;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div{
+    background-color: var(--black);
+    color: var(--branco);
+    width: 384px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+img{
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+strong{
+    color: var(--verde-escuro-claro);
+    font-size: 14px;
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    display: block;
+    background-color: var(--cinza-claro);
+    color: var(--terracota);
+   margin-bottom: 16px;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 8px;
+}
+
+a:hover{
+    background-color: var(--verde-puxado-no-cinza);
+    color: var(--terracota);
+    transition: 0.4s;
+}
